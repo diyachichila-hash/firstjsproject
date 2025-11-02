@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Welcome from "./components/Welcome";
+import Counter from "./components/Counter";
 
 export default function Home() {
   return (
     <div>
-      <Welcome/>  
-     </div>
+      <Counter/>
+    </div>
   );
 }
