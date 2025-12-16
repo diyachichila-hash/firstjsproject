@@ -2,6 +2,11 @@
 
 import { useState } from "react";
 
+export default function Paragraph() {
+    <p>
+        idk leave me alone
+    </p>
+}
 
 export default function Counter({increment, startAt, title}) {
     const [currentNumber, setCurrentNumber] =  useState(startAt);
