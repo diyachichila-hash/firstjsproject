@@ -8,7 +8,7 @@ export default function Paragraph() {
     </p>
 }
 
-export default function Counter({increment, startAt, title}) {
+export function Counter({increment, startAt, title}) {
     const [currentNumber, setCurrentNumber] =  useState(startAt);
     function handleClick() {
         setCurrentNumber(currentNumber + increment);
